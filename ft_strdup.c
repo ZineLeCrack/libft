@@ -6,7 +6,7 @@
 /*   By: rlebaill <rlebaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 18:20:55 by rlebaill          #+#    #+#             */
-/*   Updated: 2024/10/22 09:57:19 by rlebaill         ###   ########.fr       */
+/*   Updated: 2026/10/22 18:30:00 by rlebaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ char	*ft_strdup(const char *src)
 	return (dest);
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 int	main(void)
@@ -46,4 +46,4 @@ int	main(void)
 	printf("%s\n", d2);
 	free(d2);
 	return (0);
-}*/
+}
