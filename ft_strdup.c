@@ -6,7 +6,7 @@
 /*   By: rlebaill <rlebaill@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/10 18:20:55 by rlebaill          #+#    #+#             */
-/*   Updated: 2026/10/22 18:30:00 by rlebaill         ###   ########.fr       */
+/*   Updated: 2026/10/27 08:46:17 by rlebaill         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,20 +30,20 @@ char	*ft_strdup(const char *src)
 	return (dest);
 }
 
-#include <stdio.h>
-#include <string.h>
+// #include <stdio.h>
+// #include <string.h>
 
-int	main(void)
-{
-	char	src[] = "Hello World";
-	char	*d1;
-	char	*d2;
+// int	main(void)
+// {
+// 	char	src[] = "Hello World";
+// 	char	*d1;
+// 	char	*d2;
 
-	d1 = strdup(src);
-	d2 = ft_strdup(src);
-	printf("%s\n", d1);
-	free(d1);
-	printf("%s\n", d2);
-	free(d2);
-	return (0);
-}
+// 	d1 = strdup(src);
+// 	d2 = ft_strdup(src);
+// 	printf("%s\n", d1);
+// 	free(d1);
+// 	printf("%s\n", d2);
+// 	free(d2);
+// 	return (0);
+// }
